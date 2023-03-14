@@ -23,5 +23,7 @@ def versions():
 
 
 if __name__ == '__main__':
+    # docker build -f ./Dockerfile -t nsf-flask-trade .
+    # docker run -itd -p 8000:8000 --name nsf-flask-trade nsf-flask-trade
     app.run(host="0.0.0.0", port=8000)
 
